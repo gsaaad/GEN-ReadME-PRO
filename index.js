@@ -38,7 +38,7 @@ const promptUserQuestions = () => {
     {
       type: "input",
       name: "Tests",
-      message: "Enter a test to check your project usability:",
+      message: "Enter a test to check your project usability",
     },
   ];
   return inquirer.prompt(questions);
