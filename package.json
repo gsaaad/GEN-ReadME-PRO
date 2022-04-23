@@ -1,0 +1,25 @@
+{
+  "name": "gen-readme-pro",
+  "version": "1.0.0",
+  "description": "Generating README file PRO, for projects, while using NODE, utilizing NPM, inquirer to ask user for information and create a readme file that represents those inputs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gsaaad",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gsaaad/GEN-ReadME-PRO.git"
+  },
+  "keywords": [
+    "README"
+  ],
+  "bugs": {
+    "url": "https://github.com/gsaaad/GEN-ReadME-PRO/issues"
+  },
+  "homepage": "https://github.com/gsaaad/GEN-ReadME-PRO#readme"
+}
