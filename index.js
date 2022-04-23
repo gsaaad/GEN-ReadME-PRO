@@ -7,8 +7,38 @@ const promptUserQuestions = () => {
   const questions = [
     {
       type: "input",
-      name: "gitHubName",
-      message: "What is your GithubName?",
+      name: "ProjectTitle",
+      message: "Lets Start! What's your Project Title?",
+    },
+    {
+      type: "input",
+      name: "Description",
+      message: "Enter a description:",
+    },
+    {
+      type: "input",
+      name: "Installation",
+      message: "Enter Installation steps/requirements:",
+    },
+    {
+      type: "input",
+      name: "Usage",
+      message: "Enter Usage for this project, What problem does it solve?",
+    },
+    {
+      type: "input",
+      name: "License",
+      message: "Enter a License for your project:",
+    },
+    {
+      type: "input",
+      name: "Contribution",
+      message: "Any contributors?",
+    },
+    {
+      type: "input",
+      name: "Tests",
+      message: "Enter a test to check your project usability:",
     },
   ];
   return inquirer.prompt(questions);
