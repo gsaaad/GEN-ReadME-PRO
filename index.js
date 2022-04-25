@@ -1,7 +1,10 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
-// const fs = require("fs");
+const fs = require("fs");
+const generateMarkDown = require("./utils/generateMarkdown");
+const path = require("path");
 
+const readName = "GeneratedREADME.md";
 // TODO: Create an array of questions for user input
 const promptUserQuestions = () => {
   const questions = [
@@ -25,6 +28,7 @@ const promptUserQuestions = () => {
       name: "Usage",
       message: "Enter Usage for this project, What problem does it solve?",
     },
+
     {
       type: "input",
       name: "License",
@@ -40,16 +44,25 @@ const promptUserQuestions = () => {
       name: "Tests",
       message: "Enter a test to check your project usability",
     },
+    {
+      type: "input",
+      name: "emailMe",
+      message: "Enter your email to be contacted for questions! :)",
+    },
+    {
+      type: "input",
+      name: "gitName",
+      message: "Enter your github name: ",
+    },
   ];
   return inquirer.prompt(questions);
 };
-promptUserQuestions().then((answers) => console.log(answers));
+promptUserQuestions().then((answers) => {
+  // console.log(answers);
+  //write a file, this [...object] using  spread operator, calling function from utils
+  writeToFile(readName, generateMarkDown({ ...answers }));
+});
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
+function writeToFile(fileName, data) {
+  return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+}
