@@ -30,9 +30,17 @@ const promptUserQuestions = () => {
     },
 
     {
-      type: "input",
+      type: "list",
       name: "License",
       message: "Enter a License for your project:",
+      choices: [
+        "MIT",
+        "Apache License",
+        "GNU General Public License",
+        "The Unlicense",
+        "Eclipse Public License",
+        "Boost Software License",
+      ],
     },
     {
       type: "input",
