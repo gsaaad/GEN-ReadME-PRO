@@ -1,7 +1,7 @@
-#  README_Gen
+#  d
 
-  ## Welcome to README_Gen, an application created to assist you. 
-  This is a README generator.
+  ## Welcome to d, an application created to assist you. 
+  d.
 
 ## Table of Contents
 
@@ -15,18 +15,19 @@
 
 ## Usage
 
-Quickly saves time while generating a read me
+d
 
 ## Installation
-run npm i, install dependencies, node index.js 
+d
 ## License
-MIT
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow)]
 ## Contribution
-  Gsaaad
+  d
 ## Tests
-JEST~
+d
 
 ## Questions
 
-If you have questions, email me @ : gsaad@gmail/ Github: [gsaaad](https://github.com/gsaaad)
+If you have questions, email me @ : d/ Github: [d](https://github.com/d)
 
