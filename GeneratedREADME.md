@@ -1,7 +1,7 @@
-#  d
+#  Daily-Schedular
 
-  ## Welcome to d, an application created to assist you. 
-  d.
+  ## Welcome to Daily-Schedular, an application created to assist you. 
+  This application allows the user to efficiently deal with events during the timeblocks of 9am to 5pm..
 
 ## Table of Contents
 
@@ -15,19 +15,19 @@
 
 ## Usage
 
-g
+This application increases productivity and efficiency and saving events to local storage for each time block
 
 ## Installation
-d
+Npm i, npm i inquirer, node index.js
 ## License
 
-[![License: Apache License](https://img.shields.io/badge/License-Apache-yellow)]
+[![License: The Unlicense](https://img.shields.io/badge/License-The%20Unlicense-yellow)]
 ## Contribution
-  f
+  gsaaad
 ## Tests
-h
+jest~
 
 ## Questions
 
-If you have questions, email me @ : h/ Github: [j](https://github.com/j)
+If you have questions, email me @ : gsparqcode@gmail.com/ Github: [gsaaad](https://github.com/gsaaad)
 
